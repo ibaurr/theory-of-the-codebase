@@ -27,9 +27,6 @@ pdflatex theory-of-the-codebase.tex
 pdflatex theory-of-the-codebase.tex
 ```
 
-## Status
-
-Working draft. Citation details for several recent (2026) preprints are placeholders pending verification of full author lists — see comments in `references.bib`. Not yet peer reviewed or submitted.
 
 ## Citation
 
@@ -41,14 +38,12 @@ Working draft. Citation details for several recent (2026) preprints are placehol
   note   = {Position paper}
 }
 ```
+If you'd like to reference this work, see [CITATION.cff](CITATION.cff) or cite the PDF directly.
 
 ## Author
 
 Ibad - Independent Researcher - August 2026
 
-## Citation
-
-If you'd like to reference this work, see [CITATION.cff](CITATION.cff) or cite the PDF directly.
 
 ## License
 
