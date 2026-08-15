@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+title: "Coding Agents Need a Theory of the Codebase, Not Just Code Generation"
+type: article
+authors:
+  - family-names: "ur Rehman"
+    given-names: "Ibad"
+    website: "https://ibaurr.com"
+abstract: >-
+  Coding agents built on frontier language models resolve a majority of
+  curated software-engineering benchmark tasks, yet degrade sharply outside
+  them. This paper argues the cause is representational, not a matter of
+  scale: even agents that move beyond flat text to structural representations
+  model a codebase only as an artifact, a snapshot of what the code currently
+  is, and cannot capture why the code is that way, which structural
+  properties are load-bearing constraints versus historical accident, or how
+  team conventions have shifted over the repository's history. We develop
+  this artifact-versus-decisions distinction through three failure modes
+  structural graphs cannot represent by construction, survey a thinner
+  literature already gesturing at this gap, and confront directly the
+  strongest counterargument that sufficiently rich retrieval could recover
+  this information without any new representation.
+date-released: 2026-08-15
+license: CC-BY-4.0
+repository-code: "https://github.com/ibaurr/theory-of-the-codebase"
+url: "https://ibaurr.com"
+keywords:
+  - coding agents
+  - large language models
+  - software engineering
+  - knowledge representation
+  - repository-level code understanding
